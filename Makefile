@@ -5,7 +5,7 @@ SIGNING_KEY    := 17BE6741
 
 all: consul-${CONSUL_VERSION}-linux-amd64.aci consul-${CONSUL_VERSION}-linux-amd64.aci.asc
 
-consul-%-linux-amd64.aci:
+consul-%-linux-amd64.aci: build.sh
 	./build.sh $* ${ALPINE_VERSION}
 
 consul-%-linux-amd64.aci.asc: consul-%-linux-amd64.aci
