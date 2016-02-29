@@ -20,7 +20,7 @@ acbuildEnd() {
 trap acbuildEnd EXIT
 
 # name
-acbuild set-name aster.is/mantl/consul
+acbuild set-name pkg.aster.is/aci/consul
 
 # based on alpine
 acbuild dep add pkg.aster.is/aci/alpine:${ALPINE_VERSION}
