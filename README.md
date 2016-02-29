@@ -6,7 +6,7 @@ This repo packages [Consul](https://www.consul.io) for use in
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-generate-toc again -->
 **Table of Contents**
 
-- [Alpine Docker to rkt Conversion](#alpine-docker-to-rkt-conversion)
+- [Consul](#consul)
     - [Use](#use)
     - [Hacking](#hacking)
     - [License](#license)
